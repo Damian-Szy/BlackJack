@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		A9D937ED296F954800B6C31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D937EC296F954800B6C31D /* AppDelegate.swift */; };
 		A9D937EF296F954800B6C31D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D937EE296F954800B6C31D /* SceneDelegate.swift */; };
-		A9D937F1296F954800B6C31D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D937F0296F954800B6C31D /* ViewController.swift */; };
 		A9D937F4296F954800B6C31D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D937F2296F954800B6C31D /* Main.storyboard */; };
 		A9D937F6296F954900B6C31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D937F5296F954900B6C31D /* Assets.xcassets */; };
 		A9D937F9296F954900B6C31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D937F7296F954900B6C31D /* LaunchScreen.storyboard */; };
+		A9D93801296F966800B6C31D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D93800296F966800B6C31D /* HomeViewController.swift */; };
+		A9D93803296F96E800B6C31D /* BlackJackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D93802296F96E800B6C31D /* BlackJackViewController.swift */; };
+		A9D93805296F97F300B6C31D /* cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D93804296F97F300B6C31D /* cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A9D937E9296F954800B6C31D /* Play BlackJack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Play BlackJack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D937EC296F954800B6C31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D937EE296F954800B6C31D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9D937F0296F954800B6C31D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9D937F3296F954800B6C31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9D937F5296F954900B6C31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9D937F8296F954900B6C31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D937FA296F954900B6C31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D93800296F966800B6C31D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A9D93802296F96E800B6C31D /* BlackJackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackViewController.swift; sourceTree = "<group>"; };
+		A9D93804296F97F300B6C31D /* cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				A9D937EC296F954800B6C31D /* AppDelegate.swift */,
 				A9D937EE296F954800B6C31D /* SceneDelegate.swift */,
-				A9D937F0296F954800B6C31D /* ViewController.swift */,
 				A9D937F2296F954800B6C31D /* Main.storyboard */,
 				A9D937F5296F954900B6C31D /* Assets.xcassets */,
 				A9D937F7296F954900B6C31D /* LaunchScreen.storyboard */,
 				A9D937FA296F954900B6C31D /* Info.plist */,
+				A9D93800296F966800B6C31D /* HomeViewController.swift */,
+				A9D93802296F96E800B6C31D /* BlackJackViewController.swift */,
+				A9D93804296F97F300B6C31D /* cards.swift */,
 			);
 			path = "Play BlackJack";
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D937F1296F954800B6C31D /* ViewController.swift in Sources */,
 				A9D937ED296F954800B6C31D /* AppDelegate.swift in Sources */,
+				A9D93803296F96E800B6C31D /* BlackJackViewController.swift in Sources */,
 				A9D937EF296F954800B6C31D /* SceneDelegate.swift in Sources */,
+				A9D93801296F966800B6C31D /* HomeViewController.swift in Sources */,
+				A9D93805296F97F300B6C31D /* cards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
