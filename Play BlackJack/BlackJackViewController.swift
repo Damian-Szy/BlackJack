@@ -126,6 +126,7 @@ class BlackJackViewController: UIViewController {
         }, completion: { _ in
             self.TotalCount.text = "Total = \(self.convertValue(cards: self.dealtCards))"
             if self.convertValue(cards: self.dealtCards) == 21 {
+                self.endGame()
                 self.playDealer {
                     if self.convertValue(cards: self.dealtDealerCards) == 21 {
                         self.WinningLabel.text = "TIE"
